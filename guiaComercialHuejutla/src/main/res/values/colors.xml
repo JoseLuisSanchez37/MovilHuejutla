@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colores KeOfertas -->
+    <color name="emerald">#2ecc71</color>
+    <color name="nephritis">#27ae60</color>
+    <color name="turquoise">#1abc9c</color>
+    <color name="carrot">#e67e22</color>
+    <color name="pumpkin">#d35400</color>
+    <color name="alizarin">#e74c3c</color>
+    <color name="pomegranate">#c0392b</color>
+    <color name="clouds">#ecf0f1</color>
+    <color name="silver">#bdc3c7</color>
+    <color name="concrete">#95a5a6</color>
+    <color name="asbestos">#7f8c8d</color>
+    <!-- con transparencia -->
+
+    <!--********* Colores de Google Now ********-->
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <!-- ******************************************** -->
+
+    <!-- colores de Portada -->
+    <color name="cafe_fuerte">#a86105</color>
+    <color name="cafe_calido">#cf823e</color>
+
+    <color name="naranja_fuerte">#f59701</color>
+    <color name="naranja_calido">#fbb515</color>
+
+    <color name="verde_fuerte">#83a300</color>
+    <color name="verde_calido">#aec551</color>
+
+    <color name="anaranjado_fuerte">#fc6a00</color>
+    <color name="anaranjado_calido">#fe9d3e</color>
+
+    <color name="rojo_calido_fuerte">#f16844</color>
+    <color name="rojo_calido_calido">#ff9396</color>
+
+    <color name="rojo_fuerte_fuerte">#cb2d2a</color>
+    <color name="rojo_fuerte_calido">#de6665</color>
+
+    <color name="morado_fuerte">#893a96</color>
+    <color name="morado_calido">#a661a4</color>
+
+    <color name="azul_fuerte">#00617e</color>
+    <color name="azul_calido">#5699aa</color>
+
+    <color name="azul_claro_fuerte">#2e9eca</color>
+    <color name="azul_claro_calido">#78c2df</color>
+
+    <color name="verde_claro_fuerte">#0e8d74</color>
+    <color name="verde_claro_calido">#19b092</color>
+
+    <!--  Colores de la App -->
+    <color name="azul_bajo2">#2980b9</color>
+    <color name="azul_mayor1">#34495e</color>
+    <color name="azul_mayor2">#2c3e50</color>
+    <color name="azul_mayor3">#000044</color>
+    <color name="peter_river">#3498db</color>
+    <color name="orange">#f39c12</color>
+    <color name="sun_flower">#f1c40f</color>
+    <color name="belize_hole">#2980b9</color>
+    <color name="gris_claro">#F2EFFB</color>
+    <color name="azul_mascotas">#78c2df</color>
+    <color name="rojo_sombreado">#c0392b</color>
+    <color name="amethyst">#9b59b6</color>
+    <color name="belize_holer">#2980b9</color>
+    <string name="marquenos">Comuniquese con Nosotros</string>
+    <color name="naranja">#FF8800</color>
+    <color name="rojo">#ED3B3B</color>
+    <color name="parse_blue1">#94d7f5</color>
+    <color name="parse_blue2">#2389de</color>
+
+</resources>

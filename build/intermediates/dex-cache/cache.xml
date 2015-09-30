@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\LUIS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-35ed5d0e774b57e02b802666a7d71a213412fecd.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\lib-core-slh\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41f690ede611a9f65570bcc0a2b358634cb64b05">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-39b0b3bab14049ceda7f81e83aa685490b2d9268.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\SwipyRefreshLayout\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="541736c24dde7c52a86d221bac14a828f1e13d84">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-0b70908745f43a8598e02ec96ac2bd4eff9442c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-ae5949145a2b2d7fa7ec806fc5966a52ddf51013.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-7353891949d1de0aa9d7f68f77372aee4ab550c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-9e4acd672afbae475c2ca9e9b2aa7f01f194f2d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\NumberProgressBar\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5f056f7876b184e37aa13e8e1f7eaf1d1b1f35f9">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-2604a839281173b04881daae6c3080c38d0e8670.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\volleyLibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1335ed025adf99a976ed4dac67aa0076920b4fc">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-8b1903212e1ba23ec80cad48d2726c3e193df512.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\alertdialog\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6fcb931d20ad09a4e52ee84cdcd745f2405ea270">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-8e9dc486282125b24ab45c6cd26e39431284a966.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\smoothprogressbar\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b02dd793527936984cc90e888035d1b144446ca5">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-9f3b35f9c58c02b2e533f1fff61411f5cfc40316.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\loadIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bab77bd6a367bf78af12bda141764ec88f6aa1ce">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-3b8aac10faeecab43a19aa29b22789f344765127.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\circleimageview\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3263ce51845084cd3d557ed3ffd5d8ad7d0dbb39">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-ad7c67409d66e4d8840bd99b87adbc06e4cbffaf.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-a6f0d1e10ce7163300b365ee69fe76a2de9a6d85.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\lib-core\unspecified\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-5f64e627cbdf76f9b6c864733ac63e34ee4d7f8b.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\materialList\unspecified\libs\picasso-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\picasso-2.5.0-37fce930ad230663180da63c6d648220c9e3e6bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\headerStickyLibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b6e4ec6262246e8541e021ca368cabcd75554cf1">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-1fadb373873104900258df105595bc1b8c00c4ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\materialishprogress\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a1b47b21091bd680aaef37eaf1bdd91944fa69a">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-b2f401c5f4492253fed608626ede315a45360d03.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\materialList\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9949808e78c04dbad02b5ff96db4fe25d340e8c8">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-41f8a451744c1b7049a95680da04e258e96b0574.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\libs\Parse-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\Parse-1.7.1-b514e85bc7d9f0a70a3cc56b56c68e1c01b21f7e.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\materialList\unspecified\libs\otto-1.3.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ee373b6d0d6ea36a0a9b0cbabaf16be7e7fc3e30">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\otto-1.3.6-75ea3f31448e1d3e1b1b1fb6c0a5cfc93f5a140e.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\libs\bolts-android-1.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e61e3dfc57eaa5c97f9e7061db5608fc7d02d39e">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\bolts-android-1.1.3-56a575b5d2a9cec797d466006d536a95f1c108f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\FloatingActionButton\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="086a89824e759161283f53d10b2b07cd8594fa43">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-c4a0134955f35c4d168d5bec04a9e2de0fff5839.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\lib-manipulation\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c1b1a1d31e35395501c2a10b57c326c600ea7a70">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-bc6c8d3093137cc94517c2a1e433aa0b9ba88861.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-cff3350f2e9cd8a0035727b7db0154e7b0b999eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-b4a9deeda207fc5cf82a1418d8b1772372a280cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\materialdialog\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3ee433a9fc86f10cbe4a110604d17489b399643b">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-22a9fe22cdc280ce6528abaca9e532a2694d40f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\exploded-aar\MovilHuejutla\lib-core\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="21349e95a7d07b9d170849f2a116b5d7b06a1848">
+        <dex dex="C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\MovilHuejutla\guiaComercialHuejutla\build\intermediates\pre-dexed\debug\classes-02445835ee3ff7474eee7749cc9089942d855a55.jar" />
+    </item>
+
+</items>

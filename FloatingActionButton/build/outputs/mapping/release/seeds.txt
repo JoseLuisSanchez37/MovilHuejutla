@@ -1,0 +1,186 @@
+com.software.shell.fab.ActionButton
+com.software.shell.fab.ActionButton: java.lang.String LOG_TAG
+com.software.shell.fab.ActionButton: com.software.shell.fab.ActionButton$Type type
+com.software.shell.fab.ActionButton: com.software.shell.fab.ActionButton$State state
+com.software.shell.fab.ActionButton: int buttonColor
+com.software.shell.fab.ActionButton: int buttonColorPressed
+com.software.shell.fab.ActionButton: float shadowRadius
+com.software.shell.fab.ActionButton: float shadowXOffset
+com.software.shell.fab.ActionButton: float shadowYOffset
+com.software.shell.fab.ActionButton: int shadowColor
+com.software.shell.fab.ActionButton: float strokeWidth
+com.software.shell.fab.ActionButton: int strokeColor
+com.software.shell.fab.ActionButton: android.graphics.drawable.Drawable image
+com.software.shell.fab.ActionButton: float imageSize
+com.software.shell.fab.ActionButton: android.view.animation.Animation showAnimation
+com.software.shell.fab.ActionButton: android.view.animation.Animation hideAnimation
+com.software.shell.fab.ActionButton: android.graphics.Paint paint
+com.software.shell.fab.ActionButton: ActionButton(android.content.Context)
+com.software.shell.fab.ActionButton: ActionButton(android.content.Context,android.util.AttributeSet)
+com.software.shell.fab.ActionButton: ActionButton(android.content.Context,android.util.AttributeSet,int)
+com.software.shell.fab.ActionButton: ActionButton(android.content.Context,android.util.AttributeSet,int,int)
+com.software.shell.fab.ActionButton: void initActionButton()
+com.software.shell.fab.ActionButton: void initActionButton(android.content.Context,android.util.AttributeSet,int,int)
+com.software.shell.fab.ActionButton: void initLayerType()
+com.software.shell.fab.ActionButton: void initType(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initButtonColor(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initButtonColorPressed(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initShadowRadius(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initShadowXOffset(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initShadowYOffset(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initShadowColor(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initStrokeWidth(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initStrokeColor(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initShowAnimation(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initHideAnimation(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initImage(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void initImageSize(android.content.res.TypedArray)
+com.software.shell.fab.ActionButton: void playShowAnimation()
+com.software.shell.fab.ActionButton: void playHideAnimation()
+com.software.shell.fab.ActionButton: void show()
+com.software.shell.fab.ActionButton: void hide()
+com.software.shell.fab.ActionButton: void dismiss()
+com.software.shell.fab.ActionButton: boolean isHidden()
+com.software.shell.fab.ActionButton: boolean isDismissed()
+com.software.shell.fab.ActionButton: int getButtonSize()
+com.software.shell.fab.ActionButton: com.software.shell.fab.ActionButton$Type getType()
+com.software.shell.fab.ActionButton: void setType(com.software.shell.fab.ActionButton$Type)
+com.software.shell.fab.ActionButton: com.software.shell.fab.ActionButton$State getState()
+com.software.shell.fab.ActionButton: void setState(com.software.shell.fab.ActionButton$State)
+com.software.shell.fab.ActionButton: int getButtonColor()
+com.software.shell.fab.ActionButton: void setButtonColor(int)
+com.software.shell.fab.ActionButton: int getButtonColorPressed()
+com.software.shell.fab.ActionButton: void setButtonColorPressed(int)
+com.software.shell.fab.ActionButton: boolean hasShadow()
+com.software.shell.fab.ActionButton: float getShadowRadius()
+com.software.shell.fab.ActionButton: void setShadowRadius(float)
+com.software.shell.fab.ActionButton: void removeShadow()
+com.software.shell.fab.ActionButton: float getShadowXOffset()
+com.software.shell.fab.ActionButton: void setShadowXOffset(float)
+com.software.shell.fab.ActionButton: float getShadowYOffset()
+com.software.shell.fab.ActionButton: void setShadowYOffset(float)
+com.software.shell.fab.ActionButton: int getShadowColor()
+com.software.shell.fab.ActionButton: void setShadowColor(int)
+com.software.shell.fab.ActionButton: float getStrokeWidth()
+com.software.shell.fab.ActionButton: boolean hasStroke()
+com.software.shell.fab.ActionButton: void setStrokeWidth(float)
+com.software.shell.fab.ActionButton: void removeStroke()
+com.software.shell.fab.ActionButton: int getStrokeColor()
+com.software.shell.fab.ActionButton: void setStrokeColor(int)
+com.software.shell.fab.ActionButton: android.graphics.drawable.Drawable getImage()
+com.software.shell.fab.ActionButton: boolean hasImage()
+com.software.shell.fab.ActionButton: void setImageDrawable(android.graphics.drawable.Drawable)
+com.software.shell.fab.ActionButton: void setImageResource(int)
+com.software.shell.fab.ActionButton: void setImageBitmap(android.graphics.Bitmap)
+com.software.shell.fab.ActionButton: void removeImage()
+com.software.shell.fab.ActionButton: float getImageSize()
+com.software.shell.fab.ActionButton: void setImageSize(float)
+com.software.shell.fab.ActionButton: android.view.animation.Animation getShowAnimation()
+com.software.shell.fab.ActionButton: void setShowAnimation(android.view.animation.Animation)
+com.software.shell.fab.ActionButton: void setShowAnimation(com.software.shell.fab.ActionButton$Animations)
+com.software.shell.fab.ActionButton: void removeShowAnimation()
+com.software.shell.fab.ActionButton: android.view.animation.Animation getHideAnimation()
+com.software.shell.fab.ActionButton: void setHideAnimation(android.view.animation.Animation)
+com.software.shell.fab.ActionButton: void setHideAnimation(com.software.shell.fab.ActionButton$Animations)
+com.software.shell.fab.ActionButton: void removeHideAnimation()
+com.software.shell.fab.ActionButton: boolean onTouchEvent(android.view.MotionEvent)
+com.software.shell.fab.ActionButton: void startAnimation(android.view.animation.Animation)
+com.software.shell.fab.ActionButton: void resetPaint()
+com.software.shell.fab.ActionButton: void onDraw(android.graphics.Canvas)
+com.software.shell.fab.ActionButton: void drawCircle(android.graphics.Canvas)
+com.software.shell.fab.ActionButton: float calculateCenterX()
+com.software.shell.fab.ActionButton: float calculateCenterY()
+com.software.shell.fab.ActionButton: float calculateCircleRadius()
+com.software.shell.fab.ActionButton: void drawShadow()
+com.software.shell.fab.ActionButton: void drawElevation()
+com.software.shell.fab.ActionButton: boolean hasElevation()
+com.software.shell.fab.ActionButton: void drawStroke(android.graphics.Canvas)
+com.software.shell.fab.ActionButton: void drawImage(android.graphics.Canvas)
+com.software.shell.fab.ActionButton: void onMeasure(int,int)
+com.software.shell.fab.ActionButton: int calculateMeasuredWidth()
+com.software.shell.fab.ActionButton: int calculateMeasuredHeight()
+com.software.shell.fab.ActionButton: int calculateShadowWidth()
+com.software.shell.fab.ActionButton: int calculateShadowHeight()
+com.software.shell.fab.ActionButton: int calculateStrokeWeight()
+com.software.shell.fab.ActionButton$1
+com.software.shell.fab.ActionButton$Animations
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations NONE
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations FADE_IN
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations FADE_OUT
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations SCALE_UP
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations SCALE_DOWN
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations ROLL_FROM_DOWN
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations ROLL_TO_DOWN
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations ROLL_FROM_RIGHT
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations ROLL_TO_RIGHT
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations JUMP_FROM_DOWN
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations JUMP_TO_DOWN
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations JUMP_FROM_RIGHT
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations JUMP_TO_RIGHT
+com.software.shell.fab.ActionButton$Animations: int animResId
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations[] $VALUES
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations[] values()
+com.software.shell.fab.ActionButton$Animations: com.software.shell.fab.ActionButton$Animations valueOf(java.lang.String)
+com.software.shell.fab.ActionButton$Animations: ActionButton$Animations(java.lang.String,int,int)
+com.software.shell.fab.ActionButton$Animations: android.view.animation.Animation load(android.content.Context,int)
+com.software.shell.fab.ActionButton$Animations: void <clinit>()
+com.software.shell.fab.ActionButton$State
+com.software.shell.fab.ActionButton$State: com.software.shell.fab.ActionButton$State NORMAL
+com.software.shell.fab.ActionButton$State: com.software.shell.fab.ActionButton$State PRESSED
+com.software.shell.fab.ActionButton$State: com.software.shell.fab.ActionButton$State[] $VALUES
+com.software.shell.fab.ActionButton$State: com.software.shell.fab.ActionButton$State[] values()
+com.software.shell.fab.ActionButton$State: com.software.shell.fab.ActionButton$State valueOf(java.lang.String)
+com.software.shell.fab.ActionButton$State: ActionButton$State(java.lang.String,int)
+com.software.shell.fab.ActionButton$State: void <clinit>()
+com.software.shell.fab.ActionButton$Type
+com.software.shell.fab.ActionButton$Type: com.software.shell.fab.ActionButton$Type DEFAULT
+com.software.shell.fab.ActionButton$Type: com.software.shell.fab.ActionButton$Type MINI
+com.software.shell.fab.ActionButton$Type: com.software.shell.fab.ActionButton$Type[] $VALUES
+com.software.shell.fab.ActionButton$Type: com.software.shell.fab.ActionButton$Type[] values()
+com.software.shell.fab.ActionButton$Type: com.software.shell.fab.ActionButton$Type valueOf(java.lang.String)
+com.software.shell.fab.ActionButton$Type: ActionButton$Type(java.lang.String,int)
+com.software.shell.fab.ActionButton$Type: int getId()
+com.software.shell.fab.ActionButton$Type: float getSize(android.content.Context)
+com.software.shell.fab.ActionButton$Type: com.software.shell.fab.ActionButton$Type forId(int)
+com.software.shell.fab.ActionButton$Type: ActionButton$Type(java.lang.String,int,com.software.shell.fab.ActionButton$1)
+com.software.shell.fab.ActionButton$Type: void <clinit>()
+com.software.shell.fab.ActionButton$Type$1
+com.software.shell.fab.ActionButton$Type$1: ActionButton$Type$1(java.lang.String,int)
+com.software.shell.fab.ActionButton$Type$1: int getId()
+com.software.shell.fab.ActionButton$Type$1: float getSize(android.content.Context)
+com.software.shell.fab.ActionButton$Type$2
+com.software.shell.fab.ActionButton$Type$2: ActionButton$Type$2(java.lang.String,int)
+com.software.shell.fab.ActionButton$Type$2: int getId()
+com.software.shell.fab.ActionButton$Type$2: float getSize(android.content.Context)
+com.software.shell.fab.ActionButtonOutlineProvider
+com.software.shell.fab.ActionButtonOutlineProvider: int width
+com.software.shell.fab.ActionButtonOutlineProvider: int height
+com.software.shell.fab.ActionButtonOutlineProvider: ActionButtonOutlineProvider(int,int)
+com.software.shell.fab.ActionButtonOutlineProvider: void getOutline(android.view.View,android.graphics.Outline)
+com.software.shell.fab.BuildConfig
+com.software.shell.fab.BuildConfig: boolean DEBUG
+com.software.shell.fab.BuildConfig: java.lang.String APPLICATION_ID
+com.software.shell.fab.BuildConfig: java.lang.String BUILD_TYPE
+com.software.shell.fab.BuildConfig: java.lang.String FLAVOR
+com.software.shell.fab.BuildConfig: int VERSION_CODE
+com.software.shell.fab.BuildConfig: java.lang.String VERSION_NAME
+com.software.shell.fab.BuildConfig: BuildConfig()
+com.software.shell.fab.FloatingActionButton
+com.software.shell.fab.FloatingActionButton: java.lang.String LOG_TAG
+com.software.shell.fab.FloatingActionButton: FloatingActionButton(android.content.Context)
+com.software.shell.fab.FloatingActionButton: FloatingActionButton(android.content.Context,android.util.AttributeSet)
+com.software.shell.fab.FloatingActionButton: FloatingActionButton(android.content.Context,android.util.AttributeSet,int)
+com.software.shell.fab.FloatingActionButton: FloatingActionButton(android.content.Context,android.util.AttributeSet,int,int)
+com.software.shell.fab.FloatingActionButton: android.view.animation.Animation getAnimationOnShow()
+com.software.shell.fab.FloatingActionButton: void setAnimationOnShow(android.view.animation.Animation)
+com.software.shell.fab.FloatingActionButton: void setAnimationOnShow(com.software.shell.fab.ActionButton$Animations)
+com.software.shell.fab.FloatingActionButton: android.view.animation.Animation getAnimationOnHide()
+com.software.shell.fab.FloatingActionButton: void setAnimationOnHide(android.view.animation.Animation)
+com.software.shell.fab.FloatingActionButton: void setAnimationOnHide(com.software.shell.fab.ActionButton$Animations)
+com.software.shell.fab.FloatingActionButton: void initActionButton(android.content.Context,android.util.AttributeSet,int,int)
+com.software.shell.fab.FloatingActionButton: void initType(android.content.res.TypedArray)
+com.software.shell.fab.FloatingActionButton: void initShowAnimation(android.content.res.TypedArray)
+com.software.shell.fab.FloatingActionButton: void initHideAnimation(android.content.res.TypedArray)
+com.software.shell.fab.MetricsConverter
+com.software.shell.fab.MetricsConverter: MetricsConverter()
+com.software.shell.fab.MetricsConverter: float dpToPx(android.content.Context,float)

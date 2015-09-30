@@ -1,0 +1,375 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:background="@color/azul_mayor2" >
+        
+        <!-- Columna 1 -->
+            
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight=".50"
+	            android:orientation="vertical">
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_azul"
+                    android:tag="8"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="0dp"
+	            	android:layout_marginLeft="1dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	                    android:scaleType="fitCenter"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight=".75"
+	                    android:src="@drawable/c08"
+	                    android:contentDescription="@null"/>
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/edu"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_morado"
+                    android:tag="6"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="0dp"
+	            	android:layout_marginLeft="1dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	                    android:scaleType="fitCenter"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight=".75"
+	                    android:src="@drawable/c06"
+	                    android:contentDescription="@null"/>
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/serv"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_rojo_fuerte"
+                    android:tag="4"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="0dp"
+	            	android:layout_marginLeft="1dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	                    android:scaleType="fitCenter"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight=".75"
+	                    android:src="@drawable/c04"
+	                    android:contentDescription="@null"/>
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/compras"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_rojo_calido"
+                    android:tag="2"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="0dp"
+	            	android:layout_marginLeft="1dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	                    android:scaleType="fitCenter"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight=".75"
+	                    android:src="@drawable/c02"
+	                    android:contentDescription="@null"/>
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/hotel"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	                
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_verde_claro"
+                    android:tag="9"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="0dp"
+	            	android:layout_marginLeft="1dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="1dp">
+	            
+	            	 <ImageView
+	                    android:scaleType="fitCenter"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight=".75"
+	                    android:src="@drawable/c09"
+	                    android:contentDescription="@null"/>
+	            	 
+	            	 <TextView 
+	            	     android:id="@+id/marquesina_cat9"
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/alimentos"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"
+	            	     style="@style/marquesina"/>
+	            	 
+	            </LinearLayout>
+	                
+	            </LinearLayout>
+	            
+	        <!-- *********************Columna 2**************************** -->
+	        
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight=".50"
+	                android:orientation="vertical">
+	                
+	                <LinearLayout
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_anaranjado"
+                    android:tag="7"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="1dp"
+	            	android:layout_marginLeft="0dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".75"
+	            	     android:contentDescription="@null"
+	            	     android:scaleType="fitCenter"
+	            	     android:src="@drawable/c07" />
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/tecno"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_verde"
+                    android:tag="5"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="1dp"
+	            	android:layout_marginLeft="0dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".75"
+	            	     android:contentDescription="@null"
+	            	     android:scaleType="fitCenter"
+	            	     android:src="@drawable/c05" />
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/salud"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_naranja"
+                    android:tag="3"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="1dp"
+	            	android:layout_marginLeft="0dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".75"
+	            	     android:contentDescription="@null"
+	            	     android:scaleType="fitCenter"
+	            	     android:src="@drawable/c03" />
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/entre"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"
+	            	     style="marquesina"/>
+	            	 
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_cafe"
+                    android:tag="1"
+                    android:clickable="true"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="1dp"
+	            	android:layout_marginLeft="0dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="0dp">
+	            
+	            	 <ImageView
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".75"
+	            	     android:contentDescription="@null"
+	            	     android:scaleType="fitCenter"
+	            	     android:src="@drawable/c01" />
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/resta"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	            
+	            <LinearLayout 
+	                android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".20"
+                    android:background="@drawable/gradient_bg_azul_claro"
+                    android:clickable="true"
+                    android:tag="10"
+                    android:onClick="getCategoria"
+                    android:orientation="vertical"
+                    android:layout_marginRight="1dp"
+	            	android:layout_marginLeft="0dp"
+	            	android:layout_marginTop="0dp"
+	            	android:layout_marginBottom="1dp">
+	            
+	            	 <ImageView
+	                    android:scaleType="fitCenter"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight=".75"
+	                    android:src="@drawable/c10"
+	                    android:contentDescription="@null"/>
+	            	 
+	            	 <TextView 
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="0dp"
+	            	     android:layout_weight=".25"
+	            	     android:text="@string/mascotas"
+	            	     android:textStyle="bold"
+	            	     android:gravity="center"
+	            	     android:textSize="@dimen/tam_text_cat"
+	            	     android:textColor="@android:color/white"
+	            	     android:layout_marginBottom="5dp"/>
+	            	 
+	            </LinearLayout>
+	            	                
+	         </LinearLayout>
+	         
+	       </LinearLayout> <!-- end´s categorias -->
+	    <!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/layout_fragment_category.xml -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/paddingRL"
+    android:background="@android:color/white" >
+    
+    <ImageView
+        android:id="@+id/ic_call_emergency"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_communication_phone"
+        android:contentDescription="@null"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"/>
+    
+    <LinearLayout 
+        android:id="@+id/layout_emergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_toRightOf="@id/ic_call_emergency">
+    
+	    <TextView 
+	        android:id="@+id/nombre_emergencia"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:paddingBottom="@dimen/paddingRL"/>
+	    
+	    <TextView 
+	        android:id="@+id/llamar_emergencia"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:textSize="15sp"/>
+    
+    </LinearLayout>
+
+</RelativeLayout>

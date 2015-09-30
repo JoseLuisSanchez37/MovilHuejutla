@@ -1,0 +1,200 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.movilhuejutla.keofertas.NuevoAnuncio"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Agregar Imagenes"
+            android:textStyle="normal|bold"
+            android:padding="@dimen/padding_nuevo_anuncio_10"
+            android:background="@android:color/white"
+            android:textColor="@color/rojo" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:id="@+id/k_layout_new_ad_upload_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_nuevo_anuncio_10">
+
+                <ImageView
+                    android:id="@+id/k_layout_new_add_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_upload_camera"
+                    android:onClick="getImage"/>
+
+                <!-- agregar vistas dinamicamente -->
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View style="@style/k_separator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Titulo"
+            android:id="@+id/k_textview_nuevo_anuncio_titulo"
+            android:textStyle="normal|bold"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding_nuevo_anuncio_10"
+            android:textColor="@color/rojo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/k_edittext_nuevo_anuncio_descripcion"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/white"
+            android:paddingLeft="@dimen/padding_nuevo_anuncio_10"
+            android:paddingTop="@dimen/padding_nuevo_anuncio_5"
+            android:paddingRight="@dimen/padding_nuevo_anuncio_10"
+            android:paddingBottom="@dimen/padding_nuevo_anuncio_5" />
+
+        <View style="@style/k_separator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Descripción"
+            android:id="@+id/k_textview_nuevo_anuncio_descripcion"
+            android:textStyle="normal|bold"
+            android:autoText="false"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding_nuevo_anuncio_10"
+            android:textColor="@color/rojo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:background="@android:color/white"
+            android:paddingLeft="@dimen/padding_nuevo_anuncio_10"
+            android:paddingTop="@dimen/padding_nuevo_anuncio_5"
+            android:paddingRight="@dimen/padding_nuevo_anuncio_10"
+            android:paddingBottom="@dimen/padding_nuevo_anuncio_5" />
+
+        <View style="@style/k_separator" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_nuevo_anuncio_10"
+            android:paddingRight="@dimen/padding_nuevo_anuncio_10"
+            android:paddingBottom="@dimen/padding_nuevo_anuncio_10"
+            android:background="@android:color/white"
+            android:paddingLeft="@dimen/padding_nuevo_anuncio_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Categoría"
+                android:textStyle="normal|bold"
+                android:textColor="@color/rojo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Seleccionar"
+                android:layout_marginLeft="@dimen/padding_nuevo_anuncio_10" />
+
+        </LinearLayout>
+
+        <View style="@style/k_separator" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_nuevo_anuncio_10"
+            android:paddingRight="@dimen/padding_nuevo_anuncio_10"
+            android:paddingBottom="@dimen/padding_nuevo_anuncio_10"
+            android:background="@android:color/white"
+            android:paddingLeft="@dimen/padding_nuevo_anuncio_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ubicación"
+                android:textStyle="normal|bold"
+                android:textColor="@color/rojo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Seleccionar"
+                android:layout_marginLeft="@dimen/padding_nuevo_anuncio_10" />
+
+        </LinearLayout>
+
+        <View style="@style/k_separator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Categoría"
+            android:textStyle="normal|bold"
+            android:padding="@dimen/padding_nuevo_anuncio_10"
+            android:background="@android:color/white"
+            android:textColor="@color/rojo" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_nuevo_anuncio_10"
+            android:background="@android:color/white">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nuevo"
+                android:id="@+id/radioButton" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SemiNuevo"
+                android:id="@+id/radioButton3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usado"
+                android:id="@+id/radioButton2" />
+        </RadioGroup>
+
+        <View style="@style/k_separator" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+<!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/k_layout_nuevo_anuncio.xml -->

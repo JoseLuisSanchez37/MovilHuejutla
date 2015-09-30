@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:movilhuejutla="http://schemas.android.com/apk/res-auto">
+    
+<item
+    android:id="@+id/accion_ruta"
+    android:icon="@drawable/ic_action_directions"
+    movilhuejutla:showAsAction="always"
+    android:title="@null"  >
+    
+    <menu>
+        <item android:id="@+id/a_pie"
+              android:title="@string/a_pie"
+              android:icon="@drawable/ic_action_pie"
+              movilhuejutla:showAsAction="always" />
+        <item android:id="@+id/en_coche"
+              movilhuejutla:showAsAction="always"
+              android:title="@string/en_coche"
+              android:icon="@drawable/ic_action_coche" />
+    </menu>
+    
+</item>
+
+<item
+    android:id="@+id/accion_tipo_ruta"
+    android:icon="@drawable/ic_action_overflow"
+    movilhuejutla:showAsAction="always"
+    android:title="@null">
+    
+    <menu>
+        <item android:id="@+id/hibrido"
+              android:title="@string/hibrido" />
+        <item android:id="@+id/normal"
+              android:title="@string/normal" />
+        <item android:id="@+id/satelite"
+              android:title="@string/satelite" />
+        <item android:id="@+id/terreno"
+              android:title="@string/terreno" />
+              
+    </menu>
+    
+ </item>
+    
+</menu>

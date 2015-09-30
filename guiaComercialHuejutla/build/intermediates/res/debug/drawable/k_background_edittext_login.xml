@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient android:startColor="@android:color/white"
+                android:centerColor="@android:color/white"
+                android:endColor="@android:color/white"
+                android:angle="270"/>
+
+    <stroke android:width="1dp"
+        android:color="@color/silver"/>
+
+    <corners android:radius="2dp"/>
+</shape><!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/drawable/k_background_edittext_login.xml -->

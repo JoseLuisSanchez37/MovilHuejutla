@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/swipyrefreshlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:direction="both">
+
+        <com.dexafree.materialList.view.MaterialListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/k_material_listview" />
+
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+    <com.software.shell.fab.ActionButton
+        android:id="@+id/action_button_nuevoAnuncio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="nuevoAnuncio"
+        fab:type="DEFAULT"
+        fab:button_color="@color/rojo"
+        fab:button_colorPressed="@color/carrot"
+        fab:image="@drawable/fab_plus_icon"
+        fab:image_size="24dp"
+        fab:shadow_color="#757575"
+        fab:shadow_radius="3.0dp"
+        fab:shadow_xOffset="0.0dp"
+        fab:shadow_yOffset="1.0dp"/>
+
+</RelativeLayout>

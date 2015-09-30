@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.numberprogressbar.NumberProgressBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:number="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/k_number_progress_bar"
+    android:layout_width="100dp"
+    android:layout_height="10dp"
+    android:layout_gravity="center_horizontal"
+    number:progress="0"
+    style="@style/NumberProgressBar_Beauty_Red" /><!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/k_layout_numer_progress.xml -->

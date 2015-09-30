@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoaderView"><attr format="string" name="loaderType"/><attr format="integer" name="loaderFrameDelay"/></declare-styleable>
+    <!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/loadIndicator/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">library</string>
+</resources>

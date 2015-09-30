@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    android:padding="5dp" >
+    
+    <TextView 
+       android:id="@+id/content_hora_pronostico"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:textColor="@color/asbestos"
+       android:paddingRight="5dp"/>
+    
+    <ImageView 
+       android:layout_toRightOf="@id/content_hora_pronostico" 
+       android:id="@+id/content_icono_pronostico"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:contentDescription="@null"
+       android:paddingRight="5dp"/>
+    
+    <LinearLayout 
+        android:layout_toRightOf="@id/content_icono_pronostico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    
+	    <TextView 
+	       android:id="@+id/content_temperatura_pronostico"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:textSize="25sp"
+	       android:textColor="@android:color/black"/>
+	        
+	    <TextView 
+	       android:id="@+id/content_descripcion_pronostico"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:textColor="@android:color/black"/>
+    
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/item_content_pronostico.xml -->

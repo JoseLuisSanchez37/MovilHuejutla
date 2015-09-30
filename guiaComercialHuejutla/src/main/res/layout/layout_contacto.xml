@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/azul_mayor1" >
+
+    <TextView
+        android:id="@+id/info_apliacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/info"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/marquenos"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/nombre_joseluis"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="@string/joseluis"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/nombre_rodrigo"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="@string/martin"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/nombre_alfredo"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="@string/alfredo"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/call_joseluis"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/llamar"
+            android:background="@drawable/gradient_boton_contacto"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="llamar"
+            android:tag="7711266650"
+            android:drawableLeft="@android:drawable/ic_menu_call"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/llamar"
+            android:background="@drawable/gradient_boton_contacto"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="llamar"
+            android:tag="7711102330"
+            android:drawableLeft="@android:drawable/ic_menu_call"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/llamar"
+            android:background="@drawable/gradient_boton_contacto"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="llamar"
+            android:tag="7715265212"
+            android:drawableLeft="@android:drawable/ic_menu_call"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/envianos_un_email"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/correo_ventas"
+            android:background="@drawable/gradient_boton_contacto"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="enviarEmail"
+            android:tag="ventas@movilhuejutla.com.mx"
+            android:drawableLeft="@android:drawable/ic_dialog_email"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/correo_gmail"
+            android:background="@drawable/gradient_boton_contacto"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="enviarEmail"
+            android:tag="movilhuejutlaapp@gmail.com"
+            android:drawableLeft="@android:drawable/ic_dialog_email"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/siguenos_en_facebook"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/seguir_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/siguenos_facebook"
+        android:background="@drawable/gradient_boton_contacto"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:onClick="gotoFacebook"
+        android:drawableLeft="@drawable/facebook"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/visitar_website"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/visitar_sitio_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goto_movilhuejutla"
+        android:background="@drawable/gradient_boton_contacto"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:onClick="gotoMovilHuejutla"
+        android:drawableLeft="@drawable/ic_web_page"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</ScrollView>

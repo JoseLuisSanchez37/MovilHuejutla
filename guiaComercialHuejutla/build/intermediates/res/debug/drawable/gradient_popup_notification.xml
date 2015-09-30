@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    
+  <gradient
+      android:startColor="@color/azul_mayor1"
+      android:endColor="@color/azul_mayor1"
+      android:angle="90" />
+  
+  <corners
+      android:radius="10dp" />
+  
+  <stroke 
+      android:width="2px" 
+      android:color="@color/azul_mayor2"/>
+  
+</shape>
+<!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/drawable/gradient_popup_notification.xml -->

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+    
+     <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shadow"
+        android:background="@drawable/gradient_bg_shadow"
+        android:layout_alignParentTop="true"/>
+    
+    <ProgressBar 
+        android:id="@+id/progreso_inde"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone" />
+    
+    <LinearLayout
+        android:id="@+id/dis_time"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false" >
+        
+        <RelativeLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_bg_map_transparent">
+            
+            <ImageView 
+                android:id="@+id/icono_distancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_social_forward"
+                android:contentDescription="@null"/>
+        
+	        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		            android:layout_toRightOf="@id/icono_distancia" >
+		            
+	            <TextView
+			        android:id="@+id/text_distancia"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/distancia"
+			        android:textStyle="bold"
+			        android:gravity="center"
+			        android:textColor="@android:color/white"
+			        android:textAppearance="?android:attr/textAppearanceLarge" />
+	            
+			    <TextView
+			        android:id="@+id/distancia"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@null"
+			        android:gravity="center"
+			        android:textStyle="bold"
+			        android:textColor="@android:color/white"
+			        android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+			</LinearLayout>
+		
+        </RelativeLayout>
+		
+        <RelativeLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_bg_map_transparent">
+	        
+            <ImageView 
+                android:id="@+id/icono_tiempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_device_access_data_usage"
+                android:contentDescription="@null"/>
+        
+	        <LinearLayout
+	            	android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		            android:layout_toRightOf="@id/icono_tiempo">
+			    
+	            <TextView
+			        android:id="@+id/text_tiempo"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/tiempo"
+			        android:textStyle="bold"
+			        android:gravity="center"
+			        android:textColor="@android:color/white"
+			        android:textAppearance="?android:attr/textAppearanceLarge" />
+			    
+			    <TextView
+			        android:id="@+id/tiempo"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:textStyle="bold"
+			        android:text="@null"
+			        android:gravity="center"
+			        android:textColor="@android:color/white"
+			        android:textAppearance="?android:attr/textAppearanceLarge" />
+			    
+			</LinearLayout>
+		
+        </RelativeLayout>
+
+    </LinearLayout>
+   
+</RelativeLayout><!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/layout_mapa.xml -->

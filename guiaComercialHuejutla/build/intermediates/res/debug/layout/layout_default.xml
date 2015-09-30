@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ProgressBar 
+       android:id="@+id/progreso_anuncios"
+       android:indeterminateDrawable="@drawable/progress"
+       style="?android:attr/progressBarStyleLarge"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       android:visibility="gone" /> 
+    
+    <TextView 
+        android:id="@+id/mostrar_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="@null"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+    
+    <GridView 
+        android:visibility="gone"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:id="@+id/gridview_anuncios"
+	    android:numColumns="1"
+	    android:horizontalSpacing="10dp"
+	    android:verticalSpacing="10dp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/layout_default.xml -->

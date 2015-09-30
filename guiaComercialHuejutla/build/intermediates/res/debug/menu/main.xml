@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:movilhuejutla="http://schemas.android.com/apk/res-auto" >
+      
+    <item android:id="@+id/action_search"
+          android:title="@string/action_search"
+          android:icon="@drawable/ic_search"
+          movilhuejutla:showAsAction="always"
+          movilhuejutla:actionViewClass="android.support.v7.widget.SearchView" />
+</menu><!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/menu/main.xml -->

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#CC000000" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:background="@drawable/gradient_popup_notification"
+	        android:layout_margin="15dp" >
+
+		    <ImageView
+		        android:id="@+id/push_image"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:adjustViewBounds="true"
+		        android:contentDescription="@null"
+		        android:scaleType="fitXY"/>
+		    
+		    <TextView 
+		        android:id="@+id/push_titulo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:textStyle="bold"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginBottom="5dp"
+		        android:textColor="@android:color/white"/>
+		    
+		    <TextView 
+		        android:id="@+id/push_descripcion"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="18sp"        
+		        android:paddingRight="10dp"
+		        android:paddingLeft="10dp"
+		        android:paddingBottom="10dp"
+		        android:paddingTop="5dp"
+		        android:textColor="@android:color/white"/>
+		        		        
+	        <Button 
+	            android:id="@+id/push_action"
+	            android:background="@drawable/gradient_push_action"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:textColor="@android:color/white"
+	            android:onClick="accionNotificacion"
+	            android:layout_marginRight="8dp"
+	            android:layout_marginLeft="8dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginBottom="8dp"
+	            android:padding="8dp"/>
+
+		</LinearLayout>
+	    
+        <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_close"
+	        android:contentDescription="@null"
+	        android:onClick="cerrarNotificacion"
+	        android:layout_gravity="right"/>
+
+    </FrameLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/layout_push_notificacion.xml -->

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="titulo_novedades">¡ Bienvenido !</string>
+    <string name="splash_negocio">Ver Negocios</string>
+    <string name="splash_anuncio">Ver Anuncios</string>
+    <string name="app_name">Móvil Huejutla</string>
+    <string name="leyend_app">Tu guia comercial</string>
+    <string name="error_database">Error al copiar los archivos Reinstale la aplicacion</string>
+    <string name="mensaje_bienvenida">Gracias por utilizar nuestra app.
+        Esperamos y le sea util en su vida diaria.
+        Muy pronto nuevas funciones... </string>
+
+    <string name="titulo_contacto">MovilHuejutla App</string>
+    <string name="joseluis">L.S.C. Jose Luis Sanchez Cruz</string>
+    <string name="martin">L.S.C. Rodrigo Santiago Hernandez</string>
+    <string name="alfredo">L.S.C. Alfredo Lara Hernandez</string>
+    <string name="info">Con la creciente demanda de telefonos moviles, se ofrecen nuevas maneras
+        de poder anunciarse. Sientase en confianza de pertenecer a este directorio, de manera GRATUITA.
+        Comuníquese con nosotros, anúncie a su negocio y deje que miles de personas le vean en ¡¡ MovilHuejutla!! </string>
+    <string name="envianos_un_email">Envienos un email</string>
+    <string name="correo_gmail">movilhuejutlaapp@gmail.com</string>
+    <string name="correo_ventas">ventas@movilhuejutla.com.mx</string>
+    <string name="siguenos_en_facebook">Síguenos en Facebook</string>
+    <string name="siguenos_facebook">/MovilHuejutla App</string>
+    <string name="visitar_website">Visite nuestro Sitio Web</string>
+    <string name="goto_movilhuejutla">movilhuejutla.com.mx</string>
+    
+    <!-- nombres de layouts -->
+    <string name="Ubicacion">Ubicacion</string>
+    <string name="Categoria">Categoria</string>
+    <string name="Anuncios">Anuncios</string>
+    
+    <!-- panel de navegacion -->
+    <string-array name="opciones">
+        <item>Pronostico del Clima</item>
+        <item>Numeros de Emergencia</item>
+        <item>Noticias</item>
+        <item>Favoritos</item>
+        <item>Notificaciones</item>
+        <item>Califícanos en Google Play</item>
+        <item>Anunciar Mi Negocio</item>
+    </string-array>
+    
+    <!-- action bar mapa -->
+    <string name="hibrido">Hibrido</string>
+    <string name="normal">Normal</string>
+    <string name="satelite">Satellite</string>
+    <string name="terreno">Terreno</string>
+    <string name="a_pie">a Pie</string>
+    <string name="en_coche">en Coche</string>
+    <string name="distancia">Distancia</string>
+    <string name="tiempo">Tiempo</string>
+    
+    <!-- searchable -->
+    <string name="search_titulo">Buscar</string>
+    <string name="search_hint">hint</string>
+    <string name="action_search">Buscar</string>
+
+    <!-- opciones de detalle de negocio -->
+    <string name="llamar">Llamar</string>
+    <string name="llegar">Ver en Mapa</string>
+    <string name="paginaweb">Pagina Web</string>
+    <string name="buscar_query_hint">buscar</string>
+    <string name="detalles">Descripcion</string>
+    <string name="email">Correo Electronico</string>
+    <string name="facebook">Facebook</string>
+    <string name="marcador">Ver en Mapa</string>
+	
+	<!-- array colores de categorias -->
+	<integer-array name="colores">
+	    <item>@color/peter_river</item>
+	    <item>@color/azul_mayor1</item>
+	    <item>@color/carrot</item>
+	    <item>@color/sun_flower</item>
+	    <item>@color/amethyst</item>
+	    <item>@color/turquoise</item>
+	    <item>@color/belize_holer</item>
+	    <item>@color/emerald</item>
+	</integer-array>
+
+	<!-- notificaciones -->
+	<string name="borrar_notificaciones">Eliminar Notificaciones</string>
+	<string name="push_ok">Cerrar</string>
+    <string name="ver_negocio">Ver negocio ></string>
+	
+	<!-- menu principal -->
+	<string name="edu">EDUCACION</string>
+	<string name="tecno">TECNOLOGIA</string>
+	<string name="serv">SERVICIOS</string>
+	<string name="salud">SALUD</string>
+	<string name="compras">MODA Y ACTITUD</string>
+	<string name="entre">ENTRETENIMIENTO</string>
+	<string name="hotel">TURISMO Y HOTEL</string>
+	<string name="resta">COMIDAS Y BEBIDAS</string>
+	<string name="alimentos">PRODUCTOS ALIMENTICIOS</string>
+	<string name="mascotas">MASCOTAS</string>
+	
+	<!-- ************strings de keofertas ***********-->
+    <string name="k_ping">Probando Ping con KeOfertas</string>
+    <string name="k_email">Email</string>
+    <string name="k_password">Contraseña</string>
+    <string name="k_pass_olvidado"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="k_title_activity_registro">Registro</string>
+    <string name="k_hello_world">Bienvenido Sesion Iniciado</string>
+    <string name="k_action_settings">Settings</string>
+    <string name="k_acepto_los">Acepto los</string>
+    <string name="k_terminos_de_uso"><u>Terminos de Uso</u></string>
+    <string name="k_title_activity_recuperar_credenciales">Recuperar Contraseña</string>
+    <string name="k_title_activity_inicio">Inicio</string>
+    <string name="k_inicio_sesion">Usuario Reegistrado Correctamente</string>
+    <string name="title_activity_nuevo_anuncio">Nuevo Anuncio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+		
+</resources>

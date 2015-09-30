@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6" >
+        
+	    <ImageView
+	        android:id="@+id/img_negocio"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:contentDescription="@null"
+	        android:scaleType="fitXY" />
+	    
+	    <View 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shadow"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient_bg_shadow" />
+		        
+		<View 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shadow"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/gradient_bg_shadow_inverter" />
+    
+    </RelativeLayout>
+      
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:background="@color/azul_mayor1">
+	        
+	        <LinearLayout 
+	            style="@style/linear"
+	            android:background="@color/azul_mayor1">
+	    
+			    <TextView
+			        android:id="@+id/horario_negocio"
+			        android:layout_width="0dp"
+			        android:layout_weight=".75"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="10dp"
+			        android:paddingRight="10dp"
+			        android:paddingTop="5dp"
+			        android:paddingBottom="5dp"
+			        android:minLines="2"
+			        android:maxLines="3"
+			        android:textColor="@android:color/white"
+			       	android:drawableLeft="@drawable/ic_device_access_time"
+			       	android:drawablePadding="5dp"
+			  	    android:textAppearance="?android:attr/textAppearanceSmall" />
+			    
+			    <View android:layout_width="1dp"
+		              android:layout_height="match_parent"
+		              android:background="@color/azul_mayor1"/>
+			    
+		        <ImageButton
+		            android:id="@+id/favorito" 
+		            android:layout_width="0dp"
+		            android:layout_weight=".20"
+		            android:layout_height="match_parent"
+		            android:layout_gravity="center"
+		            android:layout_marginRight="2dp"
+		            android:layout_marginTop="2dp"
+		            android:contentDescription="@null"
+		            android:background="@color/azul_mayor1" />
+		    
+	        </LinearLayout>
+	       	    
+	        <View style="@style/linea"/>
+	        
+	        <LinearLayout 
+	            android:id="@+id/layout_telefono_negocio"
+	            android:clickable="true"
+	            android:onClick="marcar"
+	            android:background="@color/azul_mayor1"
+	            style="@style/linear">
+		        
+		        <LinearLayout
+		            android:layout_width="0dp"
+		            android:layout_weight=".8"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical">
+		            		            
+				    <TextView 
+				   	    android:id="@+id/numero_telefono_negocio"
+				   	    android:layout_width="match_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:text="@string/llamar"
+				   	    android:paddingLeft="20dp"
+				   	    android:paddingTop="10dp"
+				   	    android:textStyle="bold"
+				   	    android:textAppearance="?android:attr/textAppearanceMedium"
+				   	    android:textColor="@android:color/white"
+				   	    android:drawablePadding="10dp"
+				   	    android:drawableLeft="@drawable/ic_device_access_call" />
+				    
+				    <TextView 
+				        android:id="@+id/numero"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginBottom="10dp"
+				        android:paddingLeft="55dp"
+				        android:textAppearance="?android:attr/textAppearanceSmall"
+				        android:textColor="@color/clouds" />
+				    
+			    </LinearLayout>
+			    
+			    <ImageView 
+			       android:layout_width="0dp"
+			       android:layout_weight=".2"
+			       android:layout_height="wrap_content"
+			       android:contentDescription="@null"
+			       android:layout_gravity="center"
+			       android:src="@drawable/ic_navigation_next_item"/>
+		    
+		    </LinearLayout>
+		    
+	        <View style="@style/linea"/>
+	        
+	        <!-- marcador -->
+	        
+	         <LinearLayout 
+	            android:id="@+id/layout_marcador_negocio"
+	            android:clickable="true"
+	            android:onClick="iniciarMapa"
+	            android:background="@color/azul_mayor1"
+	            style="@style/linear">
+		        
+		        <LinearLayout
+		            android:layout_width="0dp"
+		            android:layout_weight=".8"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical">
+		            		            
+				    <TextView 
+				   	    android:id="@+id/ver_en_mapa"
+				   	    android:layout_width="match_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:text="@string/marcador"
+				   	    android:paddingLeft="15dp"
+				   	    android:paddingTop="10dp"
+				   	    android:textStyle="bold"
+				   	    android:textAppearance="?android:attr/textAppearanceMedium"
+				   	    android:textColor="@android:color/white"
+				   	    android:drawablePadding="10dp"
+				   	    android:drawableLeft="@drawable/ic_location_place" />
+				    
+				    <TextView 
+				        android:id="@+id/addres"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginBottom="10dp"
+				        android:paddingLeft="55dp"
+				        android:textAppearance="?android:attr/textAppearanceSmall"
+				        android:textColor="@color/clouds"
+				        style="@style/marquesina" />
+				    
+			    </LinearLayout>
+			    
+			    <ImageView 
+			       android:layout_width="0dp"
+			       android:layout_weight=".2"
+			       android:layout_height="wrap_content"
+			       android:contentDescription="@null"
+			       android:layout_gravity="center"
+			       android:src="@drawable/ic_navigation_next_item"/>
+		    
+		    </LinearLayout>
+	         
+	        <!-- end marcador -->    
+	        <View style="@style/linea"/>
+	        
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" 
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:paddingTop="15dp"
+	            android:paddingLeft="15dp"
+	            android:paddingBottom="5dp"
+	            android:drawableLeft="@drawable/ic_action_about"
+	            android:drawablePadding="5dp"
+	            android:text="@string/detalles"
+	            android:textColor="@android:color/white"
+	            android:textStyle="bold" />
+	        
+	        <TextView
+		        android:id="@+id/descripcion_negocio"
+		  	    android:layout_width="match_parent"
+		  	    android:layout_height="wrap_content"
+		  	    android:padding="15dp"
+		  	    android:textColor="@android:color/white"
+		  	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        
+	        <!-- email -->
+	        <View style="@style/linea"/>
+	        
+	        <LinearLayout 
+	            android:id="@+id/layout_email"
+	            android:background="@color/azul_mayor1"
+	            style="@style/linear">
+		            		            
+				    <TextView
+				        android:visibility="gone" 
+				   	    android:id="@+id/email"
+				   	    android:layout_width="match_parent"
+				   	    android:layout_height="wrap_content"
+				   	    android:paddingLeft="20dp"
+				   	    android:paddingTop="10dp"
+				   	    android:paddingBottom="10dp"
+				   	    android:textStyle="bold"
+				   	    android:textAppearance="?android:attr/textAppearanceMedium"
+				   	    android:textColor="@android:color/white"
+				   	    android:drawablePadding="10dp"
+				   	    android:drawableLeft="@drawable/email" />
+				    		    
+		    </LinearLayout>
+		    
+	    </LinearLayout>
+	    
+    </ScrollView>
+    
+</LinearLayout>

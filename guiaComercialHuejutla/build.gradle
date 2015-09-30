@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    compileOptions.encoding = 'windows-1251' // error de encoding UTF-8
+
+    defaultConfig {
+        applicationId "com.movilhuejutla"
+        minSdkVersion 9
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':volleyLibrary')
+    compile project(':headerStickyLibrary')
+    compile project(':alertdialog')
+    compile project(':materialishprogress')
+    compile project(':smoothprogressbar')
+    compile project(':loadIndicator')
+    compile project(':materialList')
+    compile project(':lib-core')
+    compile project(':lib-core-slh')
+    compile project(':lib-manipulation')
+    compile project(':SwipyRefreshLayout')
+    compile project(':FloatingActionButton')
+    compile project(':NumberProgressBar')
+    compile project(':circleimageview')
+    compile project(':materialdialog')
+    compile 'com.android.support:support-v4:21.+'
+    compile 'com.android.support:appcompat-v7:21+'
+    compile 'com.google.android.gms:play-services:+'
+    compile files ('libs/bolts-android-1.1.3.jar')
+    compile files ('libs/Parse-1.7.1.jar')
+    compile files ('libs/picasso-2.5.0.jar')
+    compile files ('libs/nineoldandroids-2.4.0.jar')
+}

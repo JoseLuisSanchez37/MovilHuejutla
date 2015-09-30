@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:movilhuejutla="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/button_img_search"
+        android:title="@string/search_titulo"
+        android:icon="@drawable/ic_search"
+        movilhuejutla:showAsAction="always" />
+</menu>

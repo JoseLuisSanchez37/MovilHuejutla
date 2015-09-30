@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_margin="5dp" >
+
+    <ImageView
+        android:id="@+id/noticia_url_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+    
+    <TextView 
+        android:id="@+id/noticia_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/noticia_url_image"
+        android:background="@android:color/white" />
+    
+    <TextView 
+        android:id="@+id/noticia_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@id/noticia_titulo"
+        android:background="@android:color/white" />
+        
+    <LinearLayout 
+        android:id="@+id/layout_fecha_negocio"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noticia_descripcion"
+        android:background="@android:color/white" >
+        
+        <TextView 
+            android:id="@+id/noticia_fecha"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:textColor="@color/azul_mayor2"
+            android:textSize="12sp"
+            android:gravity="center" />
+        
+        <Button 
+            android:id="@+id/noticia_id_negocio"
+            android:layout_height="wrap_content"
+            android:text="@string/ver_negocio"
+            android:background="@color/belize_hole"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:textColor="@android:color/white"
+            android:onClick="verNegocio"/>
+
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/silver"
+	    android:layout_below="@id/layout_fecha_negocio"/>
+</RelativeLayout><!-- From: file:/C:/Users/LUIS/Documents/PFC1/SourceCodeMovilHuejutla/MovilHuejutla/guiaComercialHuejutla/src/main/res/layout/items_noticia.xml -->
